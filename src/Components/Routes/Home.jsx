@@ -20,15 +20,17 @@ const Home = () => {
 
             </main>
 
-            {/* <div className="grid-layout">
+         <div className="hero-grid-layout">
 
-            <div><img src="/Assets/Image/hero.avif" alt="" width={500} /></div>
+            <div><img src="/Assets/Image/hero.avif" alt="" width={"100%"} /></div>
 
-                <div><img src="/Assets/Image/hero2.avif" alt="" width={500}/></div>
+                <div><img src="/Assets/Image/hero2.avif" alt="" width={"100%"}/></div>
 
-                <div><img src="/Assets/Image/hero3.avif" alt="" width={500} /></div>
+                <div><img src="/Assets/Image/hero3.avif" alt="" width={"100%"} /></div>
 
-        </div>  */}
+                <div><img src="/Assets/Image/hero4.jpg" alt="" width={"100%"} /></div>
+
+        </div> 
 
 
         </React.Fragment>

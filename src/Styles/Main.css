@@ -13,7 +13,7 @@ body {
     background-color: #ffffff;
     color: #1a1a1a;
 
-.app-container{
+/* .app-container{
     border: 1px solid yellow;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
 
-}
+} */
    
 }
 
@@ -33,6 +33,7 @@ body {
 main{
     display: grid;
     grid-area: "stack";
+    margin-bottom: 100px;
 }
 main video{
     grid-area: stack;
@@ -48,6 +49,7 @@ align-items: center;
 flex-direction: column;
 gap: 1em;
 font-size: x-large;
+color: #1a1a1a;
 }
 
 .h-btn{
@@ -57,6 +59,16 @@ border-radius: 10px;
 border: none;
 background-color: rgb(255, 255, 255, 0.5);
 color: rgba(0, 0, 0, 0.9);;
+}
+
+.hero-grid-layout{
+    border: 6px solid pink;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-area: auto
+    ""
+    "";
 }
 
 
@@ -79,4 +91,58 @@ footer{
     border-top: 1px solid black;
     text-align: center;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer-section-one {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    /* margin-bottom: -100px; */
+
+}
+
+.footer-section1,
+.footer-section2,
+.footer-section3 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.footer-section1 {
+
+    margin-top: 20px;
+}
+
+.footer-section3 {
+
+    margin-bottom: 10px;
+}
+
+.footer-section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+.footer-section-two-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
 }
