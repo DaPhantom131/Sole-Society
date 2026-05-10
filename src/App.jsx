@@ -8,8 +8,6 @@ import Navbar from "./Components/Routes/Navbar"
 import SneakerCard from "./Components/SneakerCard"
 import Footer from "./Components/Footer";
 import Account from "./Components/Routes/Account";
-
-
 import "./Styles/Main2.css"
 import "./Styles/Navbar.css"
 
