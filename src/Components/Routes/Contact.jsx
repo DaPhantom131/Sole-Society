@@ -28,6 +28,7 @@ const Contact = () => {
     }
 
     return (
+        
         <div className="contact-page">
             <div className="contact-wrapper">
                 <div className="contact-left">

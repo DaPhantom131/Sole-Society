@@ -7,6 +7,12 @@ import Contact from "./Components/Routes/Contact"
 import Navbar from "./Components/Routes/Navbar"
 import SneakerCard from "./Components/SneakerCard"
 import Footer from "./Components/Footer";
+<<<<<<< HEAD
+=======
+import Account from "./Components/Routes/Account";
+
+
+>>>>>>> 944227f3b094fd924089749a93d265d2094425ae
 import "./Styles/Main.css"
 import "./Styles/Navbar.css"
 
@@ -14,9 +20,12 @@ import "./Styles/Navbar.css"
 const App = () => {
   return (
 
+
     <BrowserRouter>
 
   <React.Fragment>
+
+    <div className="app-container">
 
     <Navbar/>
 
@@ -28,13 +37,14 @@ const App = () => {
           <Route path="/shop" element={<Shop/>} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/account" element={<Account/>}/>
       
       
     </Routes>
 
     <Footer/>
 
-     
+        </div>
 
   </React.Fragment>
 
