@@ -12,30 +12,31 @@ import "./Styles/Main.css"
 import "./Styles/Navbar.css"
 
 
-function App() {
+const App = () => {
   return (
 
     <BrowserRouter>
 
   <React.Fragment>
 
-        <Navbar />
+    <Navbar/>
 
-        <Routes>
+    <Routes>
 
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
+      <Route path="/" element={<Home/>}/>
+          {/* <Route path="/shop" element={<Shop/>} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+      
+      
+    </Routes>
 
-        </Routes>
-
-        <Footer />
+    <Footer/>
 
   </React.Fragment>
 
     </BrowserRouter>
   )
 }
-
+   
 export default App

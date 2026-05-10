@@ -1,22 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    min-height: 200vh;
-}
-h1{
-    margin-top: 100px;
-}
-
-.nav-logo{
+.nav-logo {
     width: fit-content;
     margin-left: 30px;
+    top: 0;
+    position: relative;
 }
 
-.links{
+.links {
     text-decoration: none;
     font-size: 25px;
     color: rgba(0, 0, 0, 0.807);
@@ -25,18 +14,19 @@ h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
-    padding: 25px;
+    padding: 15px;
     transition: all 0.5s;
+    position: relative;
 
- 
+
+
 }
 
 .links:hover {
     background-color: #211b4385;
 }
 
-.nav-links{
-    /* border: 1px solid black; */
+.nav-links {
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -45,7 +35,7 @@ h1{
 }
 
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -54,19 +44,19 @@ nav{
     top: 0;
     position: fixed;
     border-bottom: 1px solid black;
-    height: 100px;
+    height: 70px;
     transition: all 0.5s;
 
 }
 
-.nav-users{
+.nav-users {
     /* margin-left: 30px; */
     display: flex;
     gap: 100px;
 }
 
-.navbar-scrolled{
-    background-color: rgba(0, 0, 0, 0.1);
-        box-shadow: 0 3px 10 white;
-        border: none;
+.navbar-scroll {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.516);
+    border: none;
 }
