@@ -43,9 +43,9 @@ main video {
     z-index: 1;
 }
 
-<<<<<<< HEAD:src/Styles/Main.css
-=======
-<<<<<<< HEAD
+/* <<<<<<< HEAD:src/Styles/Main.css */
+
+HEAD
 .hero-grid-layout {
     height: fit-content;
     width: 90%;
@@ -76,21 +76,23 @@ main video {
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
-=======
+}
+
+
 /* ===== HERO BUTTON ===== */
->>>>>>> 5a88b417acd260f674112d3d14965b8b03169eb9:src/Styles/Main2.css
+/* >>>>>>> 5a88b417acd260f674112d3d14965b8b03169eb9:src/Styles/Main2.css */
 
 .h-btn {
-    text-decoration: none;
-    padding: 13px 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgba(0, 0, 0, 0.9);
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
+        text-decoration: none;
+        padding: 13px 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(0, 0, 0, 0.9);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
 }
 
 .hero-grid-layout {
@@ -98,11 +100,9 @@ main video {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 40px 60px;
->>>>>>> b3756af1f819fee1bb3587707aa70da2dd85458f
 }
 
-<<<<<<< HEAD:src/Styles/Main.css
-=======
+
 /* ===== ABOUT PAGE ===== */
 .about-page {
     margin-top: 100px;
@@ -112,7 +112,6 @@ main video {
 /* ===== CONTACT PAGE ===== */
 .contact-page {
     margin-top: 100px;
-<<<<<<< HEAD
     border: 1px solid black;
     text-align: center;
     width: fit-content;
@@ -123,9 +122,6 @@ footer{
     margin-top: 100px;
     border-top: 1px solid rgb(237, 237, 237);
     text-align: center;
-=======
-    padding: 0 60px;
->>>>>>> b3756af1f819fee1bb3587707aa70da2dd85458f
     width: 100%;
 }
 
@@ -240,7 +236,6 @@ footer {
 }
 
 /* ===== NAVBAR FIX ===== */
->>>>>>> 5a88b417acd260f674112d3d14965b8b03169eb9:src/Styles/Main2.css
 nav {
     background-color: #ffffff;
     z-index: 1000;
