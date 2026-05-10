@@ -8,17 +8,21 @@ const Shop = () => {
     const [search, setSearch] = useState("")
 
     const filtered = sneakersData.filter((sneaker) => {
-        const matchesBrand = activeBrand = "All"
+
+        const matchesBrand = activeBrand === "All"
             ? true
-            : sneaker.brand = activeBrand
+            : sneaker.brand === activeBrand
+
         const matchesSearch = sneaker.name
             .toLowerCase()
             .includes(search.toLowerCase())
-        return matchesBrand & matchesSearch
+
+        return matchesBrand && matchesSearch
     })
 
     return (
         <div className="shop-page">
+
             <div className="shop-header">
                 <h1 className="shop-title">Our Collection</h1>
                 <p className="shop-subtitle">
@@ -41,9 +45,9 @@ const Shop = () => {
                 {["All", "Nike", "Adidas", "Jordan"].map((brand) => (
                     <button
                         key={brand}
-                        className= {`filter-btn
-                            {activeBrand = brand
-                                 "filter-btn-active ""}`}
+                        className={`filter-btn ${activeBrand === brand
+                            ? "filter-btn-active"
+                            : ""}`}
                         onClick={() => setActiveBrand(brand)}
                     >
                         {brand}
@@ -63,11 +67,12 @@ const Shop = () => {
                 ))}
             </div>
 
-            {filtered.length = 0 (
+            {filtered.length === 0 && (
                 <p className="shop-no-results">
                     No sneakers found
                 </p>
             )}
+
         </div>
     )
 }
