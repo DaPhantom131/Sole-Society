@@ -18,7 +18,7 @@ const About = () => {
                 <div className="about-story">
                     <h2 className="about-section-title">Our Story</h2>
                     <p className="about-section-text">
-                        Sole Society was founded in 2018 by a group
+                        Sole Society was founded in 2025 by a group
                         of sneaker enthusiasts who believed that
                         everyone deserves access to the best kicks
                         on the market. What started as a small
