@@ -6,7 +6,7 @@ const Home = () => {
 
             <main>
 
-                 <video src="/Assets/Video/hero.mp4" muted loop  autoPlay width={"100%"}></video> */
+                 <video src="/Assets/Video/hero.mp4" muted loop  autoPlay width={"100%"}></video> 
 
                 <p>Hello There!</p>
 
@@ -21,6 +21,7 @@ const Home = () => {
                 <div><img src="/Assets/Image/hero3.avif" alt="" width={500} /></div>
 
         </div>  */}
+
 
         </React.Fragment>
     )
