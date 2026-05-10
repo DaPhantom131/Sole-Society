@@ -20,15 +20,25 @@ const Home = () => {
 
             </main>
 
+            <div className="hero-text">Sneakers Gallery</div>
+
          <div className="hero-grid-layout">
 
-            <div><img src="/Assets/Image/hero.avif" alt="" width={"100%"} /></div>
+            <div className="grid-card"> <img src="/Assets/Image/hero.avif" alt="" /></div>
 
-                <div><img src="/Assets/Image/hero2.avif" alt="" width={"100%"}/></div>
+                <div className="grid-card"><img src="/Assets/Image/hero2.avif" alt="" /></div>
 
-                <div><img src="/Assets/Image/hero3.avif" alt="" width={"100%"} /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero3.avif" alt="" /></div>
 
-                <div><img src="/Assets/Image/hero4.jpg" alt="" width={"100%"} /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero4.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero5.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero6.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero7.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero8.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero9.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero10.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero11.jpg" alt="" /></div>
+                <div className="grid-card"><img src="/Assets/Image/hero12.jpg" alt="" /></div>
 
         </div> 
 
