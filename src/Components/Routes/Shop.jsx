@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { sneakersData } from "../../Data/sneakersData"
 import SneakerCard from "../SneakerCard"
+import "./Shop.css"
 
 const Shop = () => {
 
