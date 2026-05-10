@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
 
             <div className="nav-users">
-               <Link to={"/user"}> <i class="fa fa-user" aria-hidden="true" style={{ fontSize: "30px", color: "black" }} title="Account"></i> </Link>
+               <Link to={"/account"}> <i class="fa fa-user" aria-hidden="true" style={{ fontSize: "30px", color: "black" }} title="Account"></i> </Link>
                <Link to={"/cart"}> <i class="fa fa-shopping-cart" aria-hidden="true" style={{ fontSize: "30px", color: "black" }} title="Cart"></i> </Link>
             </div>
 

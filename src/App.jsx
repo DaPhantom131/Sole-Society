@@ -6,6 +6,7 @@ import About from "./Components/Routes/About"
 import Contact from "./Components/Routes/Contact"
 import Navbar from "./Components/Routes/Navbar"
 import Footer from "./Components/Footer";
+import Account from "./Components/Routes/Account";
 
 
 import "./Styles/Main.css"
@@ -15,9 +16,12 @@ import "./Styles/Navbar.css"
 const App = () => {
   return (
 
+
     <BrowserRouter>
 
   <React.Fragment>
+
+    <div className="app-container">
 
     <Navbar/>
 
@@ -27,13 +31,14 @@ const App = () => {
           {/* <Route path="/shop" element={<Shop/>} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/account" element={<Account/>}/>
       
       
     </Routes>
 
     <Footer/>
 
-     
+        </div>
 
   </React.Fragment>
 
