@@ -5,7 +5,7 @@ import Shop from "./Components/Routes/Shop"
 import About from "./Components/Routes/About"
 import Contact from "./Components/Routes/Contact"
 import Navbar from "./Components/Routes/Navbar"
-import Footer from "./Components/Footer"
+import Footer from "./Components/Footer";
 
 
 import "./Styles/Main.css"
@@ -30,6 +30,8 @@ const App = () => {
       
       
     </Routes>
+
+    <Footer/>
 
      
 
