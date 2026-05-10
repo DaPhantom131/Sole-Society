@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,37 +9,30 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ===== BODY ===== */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
     color: #1a1a1a;
-<<<<<<< HEAD
 
-=======
->>>>>>> b3756af1f819fee1bb3587707aa70da2dd85458f
 }
 
-/* ===== PAGE ===== */
-.page {
-    min-height: 100vh;
-    padding-top: 100px;
-}
 
-/* ===== HOME HERO VIDEO LAYOUT ===== */
+
+
+
 main {
     display: grid;
-    grid-template-areas: "stack";
+    grid-area: "stack";
     margin-bottom: 100px;
-    position: relative;
 }
 
 main video {
     grid-area: stack;
-    width: 100%;
+    height: 100%;
 }
 
-/* ===== HERO CONTENT OVER VIDEO ===== */
+
 .hero-content {
     grid-area: stack;
     justify-self: center;
@@ -51,10 +44,23 @@ main video {
     gap: 1em;
     font-size: x-large;
     color: #ffffff;
-    z-index: 1;
+        
 }
 
-<<<<<<< HEAD
+.h-btn {
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+
+}
+
 .hero-grid-layout {
     height: fit-content;
     width: 90%;
@@ -85,44 +91,26 @@ main video {
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
-=======
-/* ===== HERO BUTTON ===== */
-.h-btn {
-    text-decoration: none;
-    padding: 13px 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgba(0, 0, 0, 0.9);
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
 }
 
 .h-btn:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* ===== HERO GRID LAYOUT ===== */
-.hero-grid-layout {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 40px 60px;
->>>>>>> b3756af1f819fee1bb3587707aa70da2dd85458f
-}
-
-/* ===== ABOUT PAGE ===== */
 .about-page {
     margin-top: 100px;
     padding: 0 60px;
 }
 
-/* ===== CONTACT PAGE ===== */
 .contact-page {
     margin-top: 100px;
-<<<<<<< HEAD
+    border: 1px solid black;
+    text-align: center;
+    width: fit-content;
+}
+
+.login-page {
+    margin-top: 100px;
     border: 1px solid black;
     text-align: center;
     width: fit-content;
@@ -133,13 +121,11 @@ footer{
     margin-top: 100px;
     border-top: 1px solid rgb(237, 237, 237);
     text-align: center;
-=======
     padding: 0 60px;
->>>>>>> b3756af1f819fee1bb3587707aa70da2dd85458f
     width: 100%;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     margin-top: 100px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -148,7 +134,7 @@ footer {
     color: #ffffff;
 }
 
-/* ===== FOOTER SECTION ONE ===== */
+
 .footer-section-one {
     background-color: #1a1a1a;
     width: 100%;
@@ -161,7 +147,7 @@ footer {
     font-size: 16px;
 }
 
-/* ===== FOOTER COLUMNS ===== */
+
 .footer-section1,
 .footer-section2,
 .footer-section3 {
@@ -215,7 +201,7 @@ footer {
     transform: scale(1.15);
 }
 
-/* ===== FOOTER SECTION TWO ===== */
+
 .footer-section-two {
     display: flex;
     flex-direction: column;
@@ -233,7 +219,6 @@ footer {
     margin-bottom: 10px;
 }
 
-/* ===== FOOTER BOTTOM TEXT ===== */
 .footer-section-two-p {
     display: flex;
     flex-direction: column;
@@ -249,13 +234,7 @@ footer {
     line-height: 1.6;
 }
 
-/* ===== NAVBAR FIX ===== */
-nav {
-    background-color: #ffffff;
-    z-index: 1000;
-}
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
     .hero-grid-layout {
         grid-template-columns: repeat(2, 1fr);
