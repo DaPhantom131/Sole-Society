@@ -1,4 +1,7 @@
+<<<<<<< HEAD:src/Styles/Main.css
 
+=======
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +12,15 @@ html {
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD:src/Styles/Main.css
 
+=======
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 body {
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
     color: #1a1a1a;
+<<<<<<< HEAD:src/Styles/Main.css
 
 }
 
@@ -21,6 +28,15 @@ body {
 
 
 
+=======
+}
+
+.page {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 main {
     display: grid;
     grid-area: "stack";
@@ -32,7 +48,10 @@ main video {
     height: 100%;
 }
 
+<<<<<<< HEAD:src/Styles/Main.css
 
+=======
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 .hero-content {
     grid-area: stack;
     justify-self: center;
@@ -42,7 +61,6 @@ main video {
     align-items: center;
     flex-direction: column;
     gap: 1em;
-    font-size: x-large;
     color: #ffffff;
         
 }
@@ -61,6 +79,12 @@ main video {
 
 }
 
+<<<<<<< HEAD:src/Styles/Main.css
+=======
+/* <<<<<<< HEAD:src/Styles/Main.css */
+
+HEAD
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 .hero-grid-layout {
     height: fit-content;
     width: 90%;
@@ -91,12 +115,43 @@ main video {
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
+<<<<<<< HEAD:src/Styles/Main.css
 }
 
 .h-btn:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+=======
+}
+
+
+/* ===== HERO BUTTON ===== */
+/* >>>>>>> 5a88b417acd260f674112d3d14965b8b03169eb9:src/Styles/Main2.css */
+
+.h-btn {
+        text-decoration: none;
+        padding: 13px 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(0, 0, 0, 0.9);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+}
+
+.hero-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+
+/* ===== ABOUT PAGE ===== */
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 .about-page {
     margin-top: 100px;
     padding: 0 60px;
@@ -104,6 +159,7 @@ main video {
 
 .contact-page {
     margin-top: 100px;
+<<<<<<< HEAD:src/Styles/Main.css
     border: 1px solid black;
     text-align: center;
     width: fit-content;
@@ -111,6 +167,8 @@ main video {
 
 .login-page {
     margin-top: 100px;
+=======
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
     border: 1px solid black;
     text-align: center;
     width: fit-content;
@@ -121,7 +179,10 @@ footer{
     margin-top: 100px;
     border-top: 1px solid rgb(237, 237, 237);
     text-align: center;
+<<<<<<< HEAD:src/Styles/Main.css
     padding: 0 60px;
+=======
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
     width: 100%;
 }
 
@@ -234,6 +295,7 @@ footer {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD:src/Styles/Main.css
 
 @media (max-width: 1024px) {
     .hero-grid-layout {
@@ -268,4 +330,10 @@ footer {
     .contact-page {
         padding: 0 20px;
     }
+=======
+/* ===== NAVBAR FIX ===== */
+nav {
+    background-color: #ffffff;
+    z-index: 1000;
+>>>>>>> be0c177181181150d238e8589b2087e70986dd33:src/Styles/Main2.css
 }
