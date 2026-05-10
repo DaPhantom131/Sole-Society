@@ -7,12 +7,9 @@ import Contact from "./Components/Routes/Contact"
 import Navbar from "./Components/Routes/Navbar"
 import SneakerCard from "./Components/SneakerCard"
 import Footer from "./Components/Footer";
-<<<<<<< HEAD
-=======
 import Account from "./Components/Routes/Account";
 
 
->>>>>>> 944227f3b094fd924089749a93d265d2094425ae
 import "./Styles/Main.css"
 import "./Styles/Navbar.css"
 
