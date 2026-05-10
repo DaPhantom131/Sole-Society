@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
@@ -6,9 +7,16 @@ const Home = () => {
 
             <main>
 
-                 <video src="/Assets/Video/hero.mp4" muted loop  autoPlay width={"100%"}></video> 
+                 <video src="/Assets/Video/hero.mp4" muted loop  autoPlay playsInline width={"100%"}></video> 
 
-                <p>Hello There!</p>
+                <div className="hero-content">
+                    <h1>Welcome to Sole Society</h1>
+                    <p>Find Your Perfect Pair, doesn't matter the size cause we've got em</p>
+
+                    <button className="h-btn">
+                        <Link to={"/shop"} className="h-btn">Shop Now</Link>
+                        </button>
+                </div>
 
             </main>
 

@@ -30,6 +30,36 @@ body {
     padding-top: 80px;
 }
 
+main{
+    display: grid;
+    grid-area: "stack";
+}
+main video{
+    grid-area: stack;
+}
+.hero-content{
+grid-area: stack;
+justify-self: center;
+align-self: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 1em;
+font-size: x-large;
+}
+
+.h-btn{
+text-decoration: none;
+padding: 13px;
+border-radius: 10px;
+border: none;
+background-color: rgb(255, 255, 255, 0.5);
+color: rgba(0, 0, 0, 0.9);;
+}
+
+
 .about-page{
     margin-top: 100px;
     border: 1px solid black;
