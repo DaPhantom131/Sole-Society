@@ -22,7 +22,7 @@ body {
 main {
     display: grid;
     grid-area: "stack";
-    margin-bottom: 100px;
+  
 }
 
 main video {
@@ -256,7 +256,3 @@ footer {
 }
 
 /* ===== NAVBAR FIX ===== */
-nav {
-    background-color: #ffffff;
-    z-index: 1000;
-}
